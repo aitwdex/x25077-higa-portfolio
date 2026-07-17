@@ -1,0 +1,125 @@
+.grid {
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);    
+     height: 320px;            
+    gap: 0 !important; 
+          
+    
+    margin-top: 150px !important;                               
+    margin-bottom: 40px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+    background-color: #EEEDED;
+    padding: 10px; 
+
+    font-size: 1.2rem;
+    border-radius: 0 !important;                      
+    overflow: hidden !important;
+     margin: 0 !important; 
+}
+
+.portfolio-container {
+     position: relative;  
+    width: 1000px;      
+    height: 1520px;     
+    margin: 150px auto 40px auto;
+}
+
+.box {
+     position: absolute;
+    box-sizing: border-box; 
+    background-color: #EEEDED; 
+    padding: 30px;           
+    overflow: hidden;
+}
+
+
+.box-1 {
+    width: 650px;
+    height: 450px;
+    left: 0;                
+    top: 0;                
+    padding-right: 0 !important;
+    padding-bottom: 0 !important; 
+}
+
+.box-2 {
+    width: 350px;
+    height: 650px;
+    left: 650px;          
+    top: 0; 
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;               
+}
+
+.box-3 {
+    width: 350px;
+    height: 350px;
+    left: 650px;           
+    top: 650px ;          
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+     padding-bottom: 0 !important;
+}
+
+.box-4 {
+    width: 650px;
+    height: 550px;
+    left: 0px;           
+    top: 450px ;          
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+}
+
+.box-5 {
+    width: 650px;
+    height: 550px;
+    left: 450px;           
+    top: 950px ;          
+    padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+
+.item-link, .box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.box img {
+    object-fit: cover;
+    border: none; 
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #dcdcdc; 
+}
+
+.item a {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+    height: auto;
+}
+
+.nav-link:hover {
+    background-color: #0d6efd;
+    color: white !important;
+    border-radius: 5px;
+}
