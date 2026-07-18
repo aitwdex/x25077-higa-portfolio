@@ -61,7 +61,7 @@
 
 .box-3 {
     width: 350px;
-    height: 350px;
+    height: 300px;
     left: 650px;           
     top: 650px ;          
     padding-left: 0 !important;
@@ -71,19 +71,29 @@
 
 .box-4 {
     width: 650px;
-    height: 550px;
+    height: 500px;
     left: 0px;           
     top: 450px ;          
     padding-right: 0 !important;
     padding-top: 0 !important;
+     padding-bottom: 0 !important;
 }
 
 .box-5 {
-    width: 650px;
-    height: 550px;
-    left: 450px;           
+    width: 600px;
+    height: 450px;
+    left: 400px;           
     top: 950px ;          
     padding-left: 0 !important;
+    padding-top: 0 !important;
+}
+
+.box-6 {
+    width: 450px;
+    height: 450px;
+    left: 0px;           
+    top: 1050px ;          
+    padding-right: 0 !important;
     padding-top: 0 !important;
 }
 
