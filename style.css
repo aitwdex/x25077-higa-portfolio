@@ -9,6 +9,11 @@
     margin-bottom: 40px;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px !important;
+}
+
 .item {
     display: flex;
     justify-content: center;
@@ -27,8 +32,9 @@
 
 .portfolio-container {
      position: relative;  
+     display: block !important;
     width: 1000px;      
-    height: 1520px;     
+    height: auto !important;
     margin: 150px auto 40px auto;
 }
 
@@ -39,7 +45,6 @@
     padding: 30px;           
     overflow: hidden;
 }
-
 
 .box-1 {
     width: 650px;
@@ -97,20 +102,27 @@
     padding-top: 0 !important;
 }
 
-box-7 {
+.box-7 {
     width: 600px;
     height: 400px;
     left: 0px;           
     top: 0px ;          
 }
 
-box-8 {
+.box-8 {
     width: 400px;
     height: 350px;
     left: 600px;           
     top: 0px ; 
     padding-left: 0 !important;
     padding-bottom: 0 !important;        
+}
+
+.box-9 {
+    width: 430px;
+    height: 350px;
+    left: 570px;          
+    top: 350px !important;      
 }
 
 .item-link, .box img {
