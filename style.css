@@ -147,6 +147,20 @@ html {
     top: 400px;                
 }
 
+.box-13 {
+     width: 380px;
+    height: 350px;
+    left: 570px;          
+    top: 0px !important;              
+}
+
+.box-14 {
+    width: 650px;
+    height: 400px;
+    left: 0px;                
+    top: 860px;              
+}
+
 .box-bg {
     width: 570px;
     height: 300px;
@@ -161,6 +175,15 @@ html {
     height: 200px;
     left: 600px;          
     top: 0px !important; 
+    background-color: #EEEDED !important;
+    padding: 0 !important;     
+}
+
+.box-bg3 {
+    width: 450px;
+    height: 250px;
+    left: 50px;          
+    top: 50px !important; 
     background-color: #EEEDED !important;
     padding: 0 !important;     
 }
