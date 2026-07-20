@@ -125,11 +125,42 @@ html {
     top: 350px !important;      
 }
 
+.box-10 {
+    width: 600px;
+    height: 600px;
+    left: 0px;          
+    top: 0px;      
+}
+
+
+.box-11 {
+     width: 430px;
+    height: 400px;
+    left: 570px;          
+    top: 200px !important;              
+}
+
+.box-12 {
+    width: 650px;
+    height: 400px;
+    left: 150px;                
+    top: 400px;                
+}
+
 .box-bg {
     width: 570px;
     height: 300px;
     left: 0px;          
     top: 400px !important; 
+    background-color: #EEEDED !important;
+    padding: 0 !important;     
+}
+
+.box-bg2 {
+    width: 400px;
+    height: 200px;
+    left: 600px;          
+    top: 0px !important; 
     background-color: #EEEDED !important;
     padding: 0 !important;     
 }
