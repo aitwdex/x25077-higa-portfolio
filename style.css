@@ -30,228 +30,9 @@ html {
      margin: 0 !important; 
 }
 
-.portfolio-container {
-     position: relative;  
-     display: block !important;
-    width: 1000px;      
-    height: auto !important;
-    margin: 150px auto 40px auto;
-}
-
-.box {
-     position: absolute;
-    box-sizing: border-box; 
-    background-color: #EEEDED; 
-    padding: 30px;           
-    overflow: hidden;
-}
-
-.box-1 {
-    width: 650px;
-    height: 450px;
-    left: 0;                
-    top: 0;                
-    padding-right: 0 !important;
-    padding-bottom: 0 !important; 
-}
-
-.box-2 {
-    width: 350px;
-    height: 650px;
-    left: 650px;          
-    top: 0; 
-    padding-left: 0 !important;
-    padding-bottom: 0 !important;               
-}
-
-.box-3 {
-    width: 350px;
-    height: 300px;
-    left: 650px;           
-    top: 650px ;          
-    padding-left: 0 !important;
-    padding-top: 0 !important;
-     padding-bottom: 0 !important;
-}
-
-.box-4 {
-    width: 650px;
-    height: 500px;
-    left: 0px;           
-    top: 450px ;          
-    padding-right: 0 !important;
-    padding-top: 0 !important;
-     padding-bottom: 0 !important;
-}
-
-.box-5 {
-    width: 600px;
-    height: 450px;
-    left: 400px;           
-    top: 950px ;          
-    padding-left: 0 !important;
-    padding-top: 0 !important;
-}
-
-.box-6 {
-    width: 450px;
-    height: 450px;
-    left: 0px;           
-    top: 950px ;          
-    padding-right: 0 !important;
-    padding-top: 0 !important;
-}
-
-.box-7 {
-    width: 600px;
-    height: 400px;
-    left: 0px;           
-    top: 0px ;          
-}
-
-.box-8 {
-    width: 400px;
-    height: 350px;
-    left: 600px;           
-    top: 0px ; 
-    padding-left: 0 !important;
-    padding-bottom: 0 !important;        
-}
-
-.box-9 {
-    width: 430px;
-    height: 350px;
-    left: 570px;          
-    top: 350px !important;      
-}
-
-.box-10 {
-    width: 600px;
-    height: 600px;
-    left: 0px;          
-    top: 0px;      
-}
-
-
-.box-11 {
-     width: 430px;
-    height: 400px;
-    left: 570px;          
-    top: 200px !important;              
-}
-
-.box-12 {
-    width: 650px;
-    height: 400px;
-    left: 150px;                
-    top: 400px;                
-}
-
-.box-13 {
-     width: 380px;
-    height: 350px;
-    left: 570px;          
-    top: 0px !important;              
-}
-
-.box-14 {
-    width: 650px;
-    height: 400px;
-    left: 0px;                
-    top: 860px;              
-}
-
-.box-15 {
-     width: 400px;
-    height: 400px;
-    left: 0px;          
-    top: 850px !important;              
-}
-
-.box-16 {
-    width: 500px;
-    height: 650px;
-    left: 430px;          
-    top: 600px !important;      
-}
-
-.box-17 {
-    width: 450px;
-    height: 450px;
-    left: 480px;          
-    top: 1300px !important;      
-}
-
-
-.box-18 {
-    width: 500px;
-    height: 450px;
-    left: 0px;          
-    top: 1300px !important;      
-}
-
-.box-19 {
-    width: 450px;
-    height: 550px;
-    left: 480px;          
-    top: 1780px !important;      
-}
-
-.box-20 {
-    width: 500px;
-    height: 550px;
-    left: 0px;          
-    top: 1780px !important;      
-}
-
-.box-bg {
-    width: 570px;
-    height: 300px;
-    left: 0px;          
-    top: 400px !important; 
-    background-color: #EEEDED !important;
-    padding: 0 !important;     
-}
-
-.box-bg2 {
-    width: 400px;
-    height: 200px;
-    left: 600px;          
-    top: 0px !important; 
-    background-color: #EEEDED !important;
-    padding: 0 !important;     
-}
-
-.box-bg3 {
-    width: 450px;
-    height: 250px;
-    left: 50px;          
-    top: 50px !important; 
-    background-color: #EEEDED !important;
-    padding: 0 !important;     
-}
-
-.box-bg4 {
-    width: 400px;
-    height: 200px;
-    left: 0px;          
-    top: 600px !important; 
-    background-color: #EEEDED !important;
-    padding: 0 !important;     
-}
-
-.box-bg5 {
-    width: 400px;
-    height: 50px;
-    left: 0px;          
-    top: -100px !important; 
-    background-color: #ffffff !important;
-    padding: 0 !important;     
-}
-
 .gallery-card {
     width: 100%;
-    height: 300px; /* 画像の高さを一括で決める（自由に変更OK） */
+    height: 300px;
     background-color: #EEEDED;
     overflow: hidden;
 }
@@ -259,7 +40,7 @@ html {
 .gallery-card img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* 画像を枠にピッタリ収める */
+    object-fit: cover; 
 }
 
 .item-link, .box img {
@@ -297,4 +78,22 @@ html {
     background-color: #0d6efd;
     color: white !important;
     border-radius: 5px;
+}
+
+.gallery-card {
+    background-color: #EEEDED; 
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    
+    padding: 15px; 
+    box-sizing: border-box; 
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    display: block; 
 }
