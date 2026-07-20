@@ -240,6 +240,15 @@ html {
     padding: 0 !important;     
 }
 
+.box-bg5 {
+    width: 400px;
+    height: 50px;
+    left: 0px;          
+    top: -100px !important; 
+    background-color: #ffffff !important;
+    padding: 0 !important;     
+}
+
 .item-link, .box img {
     width: 100%;
     height: 100%;
