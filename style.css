@@ -92,9 +92,25 @@
     width: 450px;
     height: 450px;
     left: 0px;           
-    top: 1050px ;          
+    top: 950px ;          
     padding-right: 0 !important;
     padding-top: 0 !important;
+}
+
+box-7 {
+    width: 600px;
+    height: 400px;
+    left: 0px;           
+    top: 0px ;          
+}
+
+box-8 {
+    width: 400px;
+    height: 350px;
+    left: 600px;           
+    top: 0px ; 
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;        
 }
 
 .item-link, .box img {
