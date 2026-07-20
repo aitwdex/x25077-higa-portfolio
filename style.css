@@ -175,6 +175,35 @@ html {
     top: 600px !important;      
 }
 
+.box-17 {
+    width: 450px;
+    height: 450px;
+    left: 480px;          
+    top: 1300px !important;      
+}
+
+
+.box-18 {
+    width: 500px;
+    height: 450px;
+    left: 0px;          
+    top: 1300px !important;      
+}
+
+.box-19 {
+    width: 450px;
+    height: 550px;
+    left: 480px;          
+    top: 1780px !important;      
+}
+
+.box-20 {
+    width: 500px;
+    height: 550px;
+    left: 0px;          
+    top: 1780px !important;      
+}
+
 .box-bg {
     width: 570px;
     height: 300px;
