@@ -97,3 +97,10 @@ html {
     
     display: block; 
 }
+
+.edu-hand-font {
+  font-family: "Edu VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;   
+  font-style: normal;
+}
